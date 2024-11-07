@@ -19,7 +19,7 @@ public class CallbackServer {
     private static final Logger LOGGER = LoggerFactory.getLogger(CallbackServer.class);
 
     private static final String HOSTNAME = "localhost";
-    private static final int RANDOM_AVAILABLE_PORT = 0;
+    private static final int RANDOM_AVAILABLE_PORT = 5173;
     private static final int WITHOUT_REQUEST_QUEUEING = 0;
     private static final String ENDPOINT_SUCCESS = "/success";
     private static final int NO_DELAY = 0;
